@@ -1,15 +1,130 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-
+ 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
- body{
+
+body {
     font-family: "Inter", sans-serif;
- }
- .container {
-    max-width: 1600;
+}
+
+/*navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1600px;
     width: 100%;
+    margin: 0;
+    padding: 16px 8%;
+}
+
+/* nav itemes */
+.nav_items {
+      text-decoration:none;
+      list-style: none;
+      display: flex;
+      gap: 32px;
+      color:#000000;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 24px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color:#30B868 ;
+    color: aliceblue;
+    padding: 15px 19px;
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    text-align: left;
+    width: max-content ;
+    white-space: nowrap;
+}
+
+ /* hero section  */
+
+ .hero_section {
+      background: url(../assets/hero-bg.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      width: 100%;
+      background-size: cover;
+      height: 674px;
+      text-align: center;
+      color: white;
+ } 
+
+ .content {
+    width: 1600px;
+    padding: 70px;
  }
+
+ .badge {
+    display: inline-block;
+    border-radius: 1000px;
+    background: rgba(255, 255, 255, 1);
+    letter-spacing: 0%;
+     color: #30B868;
+ }
+  .green-dot {
+    height: 16px;
+    width: 16px ;
+    background-color: #30B868;
+    border-radius: 8px;
+  }
+  /* Heading */
+  .hero-title{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .highlight{
+    color: #30B868;
+  }
+   /* text */
+
+  .hero-text{
+    font-size: 17px;
+    opacity: 0.9;
+    margin-bottom: 35px;
+    line-height: 1.6;
+  }
+  /* Buttons */
+
+  .hero-buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .btn{
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 12px 28px;
+    display: inline-flex; 
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .btn-1{
+    background-color: #30B868;
+    color: #ffffff;
+  } 
+
+  .btn-2{
+    background-color: transparent;
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+
+  
